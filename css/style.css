@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: auto;
+}
+
+:root{
+    --body-bg: hsl(0, 0%, 10%);
+    --body-text: hsl(222, 100%, 95%);
+    color-scheme: dark;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--body-bg);
+    color: var(--body-text);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
